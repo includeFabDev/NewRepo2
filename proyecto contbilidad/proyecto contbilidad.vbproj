@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20C51B6E-21FB-4C14-A2D4-EC5DA2089461}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>proyecto_contbilidad.My.MyApplication</StartupObject>
+    <RootNamespace>proyecto_contbilidad</RootNamespace>
+    <AssemblyName>proyecto contbilidad</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\joseych\Desktop\OrdenacionSeleccion\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>proyecto contbilidad.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>proyecto contbilidad.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4793167B4C574BADFF7F71956F005C4E7A9F0A91</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>monitor.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBalance.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBalance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCuentas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCuentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetLibroDiario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLibroDiario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetLibroDiario.vb">
+      <DependentUpon>DataSetLibroDiario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetLibroMayor.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLibroMayor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_balance.Designer.vb">
+      <DependentUpon>frm_balance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_balance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cuentas.Designer.vb">
+      <DependentUpon>frm_cuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_libro_diario.Designer.vb">
+      <DependentUpon>frm_libro_diario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_libro_diario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_libro_mayor.Designer.vb">
+      <DependentUpon>frm_libro_mayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_libro_mayor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_presentacion.Designer.vb">
+      <DependentUpon>frm_presentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_presentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_reporte_balance.Designer.vb">
+      <DependentUpon>frm_reporte_balance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_reporte_balance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_reporte_diario.Designer.vb">
+      <DependentUpon>frm_reporte_diario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_reporte_diario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_reporte_mayor.Designer.vb">
+      <DependentUpon>frm_reporte_mayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_reporte_mayor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_balance.resx">
+      <DependentUpon>frm_balance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cuentas.resx">
+      <DependentUpon>frm_cuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_libro_diario.resx">
+      <DependentUpon>frm_libro_diario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_libro_mayor.resx">
+      <DependentUpon>frm_libro_mayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_presentacion.resx">
+      <DependentUpon>frm_presentacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_reporte_balance.resx">
+      <DependentUpon>frm_reporte_balance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_reporte_diario.resx">
+      <DependentUpon>frm_reporte_diario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_reporte_mayor.resx">
+      <DependentUpon>frm_reporte_mayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporte_balance.rdlc" />
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="reporte_mayor.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data.xsc">
+      <DependentUpon>Data.xsd</DependentUpon>
+    </None>
+    <None Include="Data.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Data.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data.xss">
+      <DependentUpon>Data.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBalance.xsc">
+      <DependentUpon>DataSetBalance.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBalance.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBalance.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetBalance.xss">
+      <DependentUpon>DataSetBalance.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCuentas.xsc">
+      <DependentUpon>DataSetCuentas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCuentas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCuentas.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetCuentas.xss">
+      <DependentUpon>DataSetCuentas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetLibroDiario.xsc">
+      <DependentUpon>DataSetLibroDiario.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetLibroDiario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLibroDiario.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetLibroDiario.xss">
+      <DependentUpon>DataSetLibroDiario.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetLibroMayor.xsc">
+      <DependentUpon>DataSetLibroMayor.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetLibroMayor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLibroMayor.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetLibroMayor.xss">
+      <DependentUpon>DataSetLibroMayor.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="proyecto contbilidad_TemporaryKey.pfx" />
+    <None Include="Resources\folder-locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows 7 ultimate collection of wallpapers.24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows 7 ultimate collection of wallpapers.241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="monitor.ico" />
+    <None Include="Resources\zotqbfue4eyhyyirwozy2.gif" />
+    <None Include="Resources\zotqbfue4eyhyyirwozy1.gif" />
+    <None Include="Resources\color-blanco.png" />
+    <None Include="Resources\zotqbfue4eyhyyirwozy.gif" />
+    <None Include="Resources\arrow_left_15601.png" />
+    <None Include="Resources\Izquierda-6.png" />
+    <None Include="Resources\2015_fiat_abarth_595_trofeo_edition_1.jpg" />
+    <None Include="Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_4.jpg" />
+    <None Include="Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_3.jpg" />
+    <None Include="Resources\687.png" />
+    <None Include="Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_2.jpg" />
+    <None Include="Resources\1600.png" />
+    <None Include="Resources\13784.png" />
+    <None Include="Resources\delete-button_icon-icons.com_716931.png" />
+    <None Include="Resources\delete-button_icon-icons.com_71693.png" />
+    <None Include="Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_1.jpg" />
+    <None Include="Resources\eduquese-en-seguridad-digital.jpg" />
+    <None Include="Resources\1Logo-Moxos-Wheels1.png" />
+    <None Include="Resources\1Logo-Moxos-Wheels.png" />
+    <None Include="Resources\mis-cuentas-claras1.png" />
+    <None Include="Resources\4162521_orig.png" />
+    <None Include="Resources\mis-cuentas-claras.png" />
+    <None Include="Resources\book_keeping-256.png" />
+    <None Include="Resources\1600 %281%29.png" />
+    <None Include="Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_.jpg" />
+    <None Include="Resources\TheMasterPro98 %28101%29.jpg" />
+    <None Include="Resources\bmw-autos-usados-venta.jpg" />
+    <None Include="Resources\boton-de-cancelacion-de-icono-7349-32.png" />
+    <None Include="Resources\la-lucha-contra-la-caja-registradora-icono-4028-64.png" />
+    <None Include="Resources\3floppy-guardar-el-desmantelamiento-icono-4124-64.png" />
+    <None Include="Resources\porsche-carrera-4-type-991-19.jpg" />
+    <None Include="Resources\PORSCHE911TurboS-997--4328_5.jpg" />
+    <None Include="Resources\2016-Porsche-911-Gallery4.jpg" />
+    <None Include="Resources\2016-Porsche-911-Gallery4.jpeg" />
+    <None Include="Resources\q.png" />
+    <None Include="Resources\hoja-de-calculo-excel-invoice-icono-5449-64.png" />
+    <None Include="Resources\calculadora-de-matematicas-icono-5680-48.png" />
+    <None Include="Resources\verificacion-verde-ok-si-icono-8667-48.png" />
+    <None Include="Resources\ok-dialogo-icono-8741-64.png" />
+    <None Include="Resources\boton-de-anadir-mas-icono-6258-64.png" />
+    <None Include="Resources\marca.jpg" />
+    <None Include="Resources\marcas-de-autos-4.jpg" />
+    <None Include="Resources\MARCAS EN TEKAUTO.JPG" />
+    <None Include="Resources\ac1.png" />
+    <None Include="Resources\cv.png" />
+    <None Include="Resources\n.png" />
+    <None Include="Resources\beos-carpeta-consultas-icono-7547-64-1.png" />
+    <None Include="Resources\beos-carpeta-consultas-icono-7547-128.png" />
+    <None Include="Resources\calcuworld.png" />
+    <None Include="Resources\iStock_000077662959_Small.jpg" />
+    <None Include="Resources\imcruz port.png" />
+    <None Include="Resources\co.jpg" />
+    <None Include="Resources\principal.jpgED.jpg" />
+    <None Include="Resources\impor1.png" />
+    <None Include="Resources\mimcruz.png" />
+    <None Include="Resources\impor.png" />
+    <None Include="Resources\imcre.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\at.jpg" />
+    <None Include="Resources\imas.png" />
+    <None Include="Resources\cue.jpg" />
+    <None Include="Resources\consultoria-contable-fiscal.png" />
+    <None Include="Resources\vidrios-en-los-libros-29014676 - copia %282%29.png" />
+    <None Include="Resources\ad - copia.jpg" />
+    <None Include="Resources\ac.png" />
+    <None Include="Resources\ce.jpg" />
+    <None Include="Resources\1YR.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

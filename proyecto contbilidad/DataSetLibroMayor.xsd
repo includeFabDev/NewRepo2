@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetLibroMayor" targetNamespace="http://tempuri.org/DataSetLibroMayor.xsd" xmlns:mstns="http://tempuri.org/DataSetLibroMayor.xsd" xmlns="http://tempuri.org/DataSetLibroMayor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="StringContabilidad" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="StringContabilidad (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.proyecto_contbilidad.My.MySettings.GlobalReference.Default.StringContabilidad" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="libro_mayorTableAdapter" GeneratorDataComponentClassName="libro_mayorTableAdapter" Name="libro_mayor" UserDataComponentName="libro_mayorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="StringContabilidad (MySettings)" DbObjectName="BD_contabilidad.dbo.libro_mayor" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT detalle, debe, haber FROM dbo.libro_mayor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="detalle" DataSetColumn="detalle" />
+              <Mapping SourceColumn="debe" DataSetColumn="debe" />
+              <Mapping SourceColumn="haber" DataSetColumn="haber" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetLibroMayor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetLibroMayor" msprop:Generator_UserDSName="DataSetLibroMayor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="libro_mayor" msprop:Generator_TableClassName="libro_mayorDataTable" msprop:Generator_TableVarName="tablelibro_mayor" msprop:Generator_TablePropName="libro_mayor" msprop:Generator_RowDeletingName="libro_mayorRowDeleting" msprop:Generator_RowChangingName="libro_mayorRowChanging" msprop:Generator_RowEvHandlerName="libro_mayorRowChangeEventHandler" msprop:Generator_RowDeletedName="libro_mayorRowDeleted" msprop:Generator_UserTableName="libro_mayor" msprop:Generator_RowChangedName="libro_mayorRowChanged" msprop:Generator_RowEvArgName="libro_mayorRowChangeEvent" msprop:Generator_RowClassName="libro_mayorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="detalle" msprop:Generator_ColumnVarNameInTable="columndetalle" msprop:Generator_ColumnPropNameInRow="detalle" msprop:Generator_ColumnPropNameInTable="detalleColumn" msprop:Generator_UserColumnName="detalle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="debe" msprop:Generator_ColumnVarNameInTable="columndebe" msprop:Generator_ColumnPropNameInRow="debe" msprop:Generator_ColumnPropNameInTable="debeColumn" msprop:Generator_UserColumnName="debe" type="xs:double" minOccurs="0" />
+              <xs:element name="haber" msprop:Generator_ColumnVarNameInTable="columnhaber" msprop:Generator_ColumnPropNameInRow="haber" msprop:Generator_ColumnPropNameInTable="haberColumn" msprop:Generator_UserColumnName="haber" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
