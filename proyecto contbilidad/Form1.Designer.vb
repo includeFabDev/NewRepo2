@@ -68,7 +68,7 @@ Partial Class Form1
         Me.IconButton5.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton5.IconSize = 40
         Me.IconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton5.Location = New System.Drawing.Point(12, 20)
+        Me.IconButton5.Location = New System.Drawing.Point(125, 384)
         Me.IconButton5.Name = "IconButton5"
         Me.IconButton5.Size = New System.Drawing.Size(49, 40)
         Me.IconButton5.TabIndex = 17
