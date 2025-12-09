@@ -8,9 +8,6 @@
         End If
         Me.Close()
     End Sub
-    Private Sub Cancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cancel.Click
-        Me.Close()
-    End Sub
 
     Private Sub frm_login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -26,5 +23,9 @@
 
     Private Sub LogoPictureBox_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub IconButton6_Click(sender As Object, e As EventArgs) Handles IconButton6.Click
+        Me.Close()
     End Sub
 End Class
