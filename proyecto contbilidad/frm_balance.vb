@@ -31,4 +31,20 @@
     Private Sub GroupBox5_Enter(sender As Object, e As EventArgs) Handles GroupBox5.Enter
 
     End Sub
+
+    Private Sub frm_balance_Validated(sender As Object, e As EventArgs) Handles Me.Validated
+
+    End Sub
+
+    Private Sub frm_balance_VisibleChanged(sender As Object, e As EventArgs) Handles Me.VisibleChanged
+
+    End Sub
+
+    Private Sub frm_balance_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+
+    End Sub
+
+    Private Sub frm_balance_ResizeBegin(sender As Object, e As EventArgs) Handles Me.ResizeBegin
+
+    End Sub
 End Class
