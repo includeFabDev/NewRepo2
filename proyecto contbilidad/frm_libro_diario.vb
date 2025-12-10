@@ -205,4 +205,8 @@
         Form1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub ck_ivacf_CheckedChanged(sender As Object, e As EventArgs) Handles ck_ivacf.CheckedChanged
+
+    End Sub
 End Class

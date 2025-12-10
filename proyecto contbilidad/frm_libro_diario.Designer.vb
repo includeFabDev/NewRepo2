@@ -72,6 +72,9 @@ Partial Class frm_libro_diario
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.TcuentasBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,13 +92,14 @@ Partial Class frm_libro_diario
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.Label9)
         Me.GroupBox2.Controls.Add(Me.btn_ingresar_glosa)
         Me.GroupBox2.Controls.Add(Me.txt_glosa)
         Me.GroupBox2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox2.Location = New System.Drawing.Point(674, 320)
+        Me.GroupBox2.Location = New System.Drawing.Point(22, 330)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(325, 99)
+        Me.GroupBox2.Size = New System.Drawing.Size(323, 99)
         Me.GroupBox2.TabIndex = 45
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Glosa"
@@ -107,9 +111,9 @@ Partial Class frm_libro_diario
         Me.btn_ingresar_glosa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_ingresar_glosa.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_ingresar_glosa.ForeColor = System.Drawing.Color.Black
-        Me.btn_ingresar_glosa.Location = New System.Drawing.Point(224, 24)
+        Me.btn_ingresar_glosa.Location = New System.Drawing.Point(246, 19)
         Me.btn_ingresar_glosa.Name = "btn_ingresar_glosa"
-        Me.btn_ingresar_glosa.Size = New System.Drawing.Size(88, 56)
+        Me.btn_ingresar_glosa.Size = New System.Drawing.Size(46, 45)
         Me.btn_ingresar_glosa.TabIndex = 27
         Me.btn_ingresar_glosa.UseVisualStyleBackColor = False
         '
@@ -143,9 +147,9 @@ Partial Class frm_libro_diario
         Me.GroupBox1.Controls.Add(Me.rb_haber)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox1.Location = New System.Drawing.Point(674, 33)
+        Me.GroupBox1.Location = New System.Drawing.Point(22, 64)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(322, 259)
+        Me.GroupBox1.Size = New System.Drawing.Size(323, 259)
         Me.GroupBox1.TabIndex = 44
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Asiento Contable"
@@ -163,9 +167,9 @@ Partial Class frm_libro_diario
         '
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.Location = New System.Drawing.Point(38, 181)
+        Me.Button4.Location = New System.Drawing.Point(51, 181)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 52)
+        Me.Button4.Size = New System.Drawing.Size(53, 52)
         Me.Button4.TabIndex = 42
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -182,12 +186,14 @@ Partial Class frm_libro_diario
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(246, 53)
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(235, 53)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(53, 56)
+        Me.Button1.Size = New System.Drawing.Size(57, 56)
         Me.Button1.TabIndex = 40
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -227,7 +233,7 @@ Partial Class frm_libro_diario
         Me.dtp_fecha.Name = "dtp_fecha"
         Me.dtp_fecha.Size = New System.Drawing.Size(226, 25)
         Me.dtp_fecha.TabIndex = 17
-        Me.dtp_fecha.Value = New Date(2014, 1, 3, 0, 0, 0, 0)
+        Me.dtp_fecha.Value = New Date(2025, 12, 11, 0, 0, 0, 0)
         '
         'cmb_cuenta
         '
@@ -266,9 +272,10 @@ Partial Class frm_libro_diario
         Me.btn_guadar_asiento.BackColor = System.Drawing.Color.Transparent
         Me.btn_guadar_asiento.BackgroundImage = CType(resources.GetObject("btn_guadar_asiento.BackgroundImage"), System.Drawing.Image)
         Me.btn_guadar_asiento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_guadar_asiento.Location = New System.Drawing.Point(122, 181)
+        Me.btn_guadar_asiento.ForeColor = System.Drawing.Color.Transparent
+        Me.btn_guadar_asiento.Location = New System.Drawing.Point(136, 181)
         Me.btn_guadar_asiento.Name = "btn_guadar_asiento"
-        Me.btn_guadar_asiento.Size = New System.Drawing.Size(85, 52)
+        Me.btn_guadar_asiento.Size = New System.Drawing.Size(54, 52)
         Me.btn_guadar_asiento.TabIndex = 33
         Me.btn_guadar_asiento.UseVisualStyleBackColor = False
         '
@@ -430,13 +437,15 @@ Partial Class frm_libro_diario
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox3.Controls.Add(Me.Label8)
+        Me.GroupBox3.Controls.Add(Me.Label7)
         Me.GroupBox3.Controls.Add(Me.txthaber)
         Me.GroupBox3.Controls.Add(Me.txtdebe)
         Me.GroupBox3.Controls.Add(Me.dg_libro_diario)
         Me.GroupBox3.Controls.Add(Me.TextBox2)
         Me.GroupBox3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox3.Location = New System.Drawing.Point(22, 33)
+        Me.GroupBox3.Location = New System.Drawing.Point(373, 60)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(642, 476)
         Me.GroupBox3.TabIndex = 46
@@ -475,7 +484,8 @@ Partial Class frm_libro_diario
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(22, 20)
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(20, 16)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(64, 64)
         Me.Button2.TabIndex = 47
@@ -507,9 +517,9 @@ Partial Class frm_libro_diario
         '
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.Location = New System.Drawing.Point(24, 16)
+        Me.Button3.Location = New System.Drawing.Point(25, 16)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 68)
+        Me.Button3.Size = New System.Drawing.Size(64, 64)
         Me.Button3.TabIndex = 50
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -531,8 +541,8 @@ Partial Class frm_libro_diario
         Me.GroupBox6.Controls.Add(Me.GroupBox4)
         Me.GroupBox6.Controls.Add(Me.GroupBox5)
         Me.GroupBox6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox6.ForeColor = System.Drawing.Color.White
-        Me.GroupBox6.Location = New System.Drawing.Point(674, 436)
+        Me.GroupBox6.ForeColor = System.Drawing.Color.Black
+        Me.GroupBox6.Location = New System.Drawing.Point(24, 442)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(321, 129)
         Me.GroupBox6.TabIndex = 52
@@ -549,6 +559,33 @@ Partial Class frm_libro_diario
         Me.Button5.Size = New System.Drawing.Size(58, 23)
         Me.Button5.TabIndex = 53
         Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(158, 439)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(46, 17)
+        Me.Label7.TabIndex = 33
+        Me.Label7.Text = "Debe"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(407, 439)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(53, 17)
+        Me.Label8.TabIndex = 34
+        Me.Label8.Text = "Haber"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(235, 70)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(67, 17)
+        Me.Label9.TabIndex = 28
+        Me.Label9.Text = "Insertar"
         '
         'frm_libro_diario
         '
@@ -637,4 +674,7 @@ Partial Class frm_libro_diario
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label9 As Label
 End Class
