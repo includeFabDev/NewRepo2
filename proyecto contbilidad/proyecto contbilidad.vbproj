@@ -389,6 +389,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="monitor.ico" />
+    <None Include="Resources\f221.png" />
     <None Include="Resources\zotqbfue4eyhyyirwozy2.gif" />
     <None Include="Resources\zotqbfue4eyhyyirwozy1.gif" />
     <None Include="Resources\color-blanco.png" />
