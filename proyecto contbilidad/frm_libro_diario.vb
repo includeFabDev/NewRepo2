@@ -100,29 +100,46 @@
 
     'funcion que calcula el folio
     Function folio(ByVal cuenta As String) As Integer
-        'variable para almacenar el folio
-        Dim numero As Integer = 0
+        ' 1. VALIDACIÓN INICIAL: Si lo que intentamos registrar es una GLOSA, retornamos 0 o vacío
+        ' (Ajusta esto si en tu base de datos usas NULL, pero generalmente es 0 o "")
+        If cuenta.ToUpper().Contains("GLOSA") Then
+            Return 0
+        End If
+
+        Dim maximoFolio As Integer = 0
+
         With dg_libro_diario
-            'recorremos todas las filas del datagridview
-            Try
-                For i As Integer = 0 To .RowCount - 2
-                    'en caso de que encuentre un detalle con el mismo nombre
-                    If cuenta = .Item(2, i).Value.ToString Then
-                        'retorna ese valor
-                        Return Integer.Parse(.Item(3, i).Value)
-                        'se sale de la funcion
-                        Exit Function
-                    End If
-                    'caso que no se cumpla el primer if busca el folio con valor superio
-                    If numero < Integer.Parse(.Item(3, i).Value) Then
-                        numero = Integer.Parse(.Item(3, i).Value)
-                    End If
-                Next
-            Catch ex As Exception
-            End Try
+            ' Recorremos todas las filas
+            ' Usamos una resta segura para evitar errores si la grilla está vacía
+            Dim limite As Integer = .RowCount - 1
+            If .AllowUserToAddRows Then limite = .RowCount - 2
+
+            For i As Integer = 0 To limite
+                ' Obtenemos el nombre de la cuenta y el folio de la fila actual de forma segura
+                Dim filaCuenta As String = .Item(2, i).Value.ToString()
+
+                ' Usamos Val() en lugar de Parse. Val() convierte "" a 0 automáticamente y no da error.
+                Dim filaFolio As Integer = Val(.Item(3, i).Value)
+
+                ' REGLA 1: Si la fila es una Glosa (folio 0), la ignoramos completamente
+                If filaFolio = 0 Then
+                    Continue For
+                End If
+
+                ' REGLA 2: Si encontramos la MISMA cuenta, devolvemos su folio existente
+                If cuenta.Trim().ToUpper() = filaCuenta.Trim().ToUpper() Then
+                    Return filaFolio
+                End If
+
+                ' REGLA 3: Rastreamos cuál es el número más alto que hemos visto hasta ahora
+                If filaFolio > maximoFolio Then
+                    maximoFolio = filaFolio
+                End If
+            Next
         End With
-        'si no se cumple el primer if en ninguna iteraccion devuelve el folio mayor + 1
-        Return numero + 1
+
+        ' REGLA 4: Si no encontramos la cuenta, devolvemos el máximo encontrado + 1
+        Return maximoFolio + 1
     End Function
     Sub limpiar()
         txt_monto.Clear()
