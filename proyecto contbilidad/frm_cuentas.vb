@@ -8,12 +8,16 @@
     End Sub
 
     Private Sub btn_guardar_cuenta_Click(sender As Object, e As EventArgs) Handles btn_guardar_cuenta.Click
-        If txt_cuenta.Text = "" Or txt_cuenta.Text = "" Then
+        ' CORRECCIÓN 1: Validar ambos campos (txt_cuenta Y txt_detalle_cuenta)
+        If txt_cuenta.Text = "" Or txt_detalle_cuenta.Text = "" Then
             MessageBox.Show("Datos mal ingresado, Verifique", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         Else
-            Me.T_cuentasTableAdapter.insertar_cuenta(txt_cuenta.Text, txt_cuenta.Text)
+            ' CORRECCIÓN 2: Enviar el nombre Y el detalle por separado
+            Me.T_cuentasTableAdapter.insertar_cuenta(txt_cuenta.Text, txt_detalle_cuenta.Text)
+
             frm_libro_diario.T_cuentasTableAdapter.Fill(frm_libro_diario.Data.t_cuentas)
             Me.T_cuentasTableAdapter.Fill(Me.DataSetCuentas.t_cuentas)
+
             txt_cuenta.Clear()
             txt_detalle_cuenta.Clear()
         End If
