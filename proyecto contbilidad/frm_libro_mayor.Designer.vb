@@ -32,7 +32,6 @@ Partial Class frm_libro_mayor
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -41,7 +40,9 @@ Partial Class frm_libro_mayor
         Me.DebeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DetalleDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dg1 = New System.Windows.Forms.DataGridView()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         CType(Me.LibromayorBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSetLibroMayor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox5.SuspendLayout()
@@ -68,11 +69,11 @@ Partial Class frm_libro_mayor
         '
         Me.GroupBox5.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox5.Controls.Add(Me.Button3)
-        Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.GroupBox5.Location = New System.Drawing.Point(377, 463)
+        Me.GroupBox5.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox5.ForeColor = System.Drawing.Color.Black
+        Me.GroupBox5.Location = New System.Drawing.Point(13, 370)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(135, 100)
+        Me.GroupBox5.Size = New System.Drawing.Size(134, 112)
         Me.GroupBox5.TabIndex = 52
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Ver reporte"
@@ -80,7 +81,7 @@ Partial Class frm_libro_mayor
         'Button3
         '
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(31, 21)
+        Me.Button3.Location = New System.Drawing.Point(25, 27)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 73)
         Me.Button3.TabIndex = 50
@@ -90,11 +91,11 @@ Partial Class frm_libro_mayor
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox4.Controls.Add(Me.Button2)
-        Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.GroupBox4.Location = New System.Drawing.Point(224, 463)
+        Me.GroupBox4.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox4.ForeColor = System.Drawing.Color.Black
+        Me.GroupBox4.Location = New System.Drawing.Point(13, 260)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(115, 100)
+        Me.GroupBox4.Size = New System.Drawing.Size(134, 104)
         Me.GroupBox4.TabIndex = 53
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Calculadora"
@@ -103,7 +104,7 @@ Partial Class frm_libro_mayor
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(19, 20)
+        Me.Button2.Location = New System.Drawing.Point(30, 25)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(64, 69)
         Me.Button2.TabIndex = 47
@@ -116,22 +117,11 @@ Partial Class frm_libro_mayor
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(97, 483)
+        Me.Button1.Location = New System.Drawing.Point(35, 184)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(82, 70)
         Me.Button1.TabIndex = 3
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button5.Location = New System.Drawing.Point(12, 0)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(65, 35)
-        Me.Button5.TabIndex = 54
-        Me.Button5.UseVisualStyleBackColor = False
         '
         'Column3
         '
@@ -154,9 +144,9 @@ Partial Class frm_libro_mayor
         Me.dg2.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.dg2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dg2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.dg2.Location = New System.Drawing.Point(12, 41)
+        Me.dg2.Location = New System.Drawing.Point(161, 97)
         Me.dg2.Name = "dg2"
-        Me.dg2.Size = New System.Drawing.Size(500, 416)
+        Me.dg2.Size = New System.Drawing.Size(587, 382)
         Me.dg2.TabIndex = 1
         '
         'HaberDataGridViewTextBoxColumn
@@ -185,22 +175,46 @@ Partial Class frm_libro_mayor
         Me.dg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dg1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DetalleDataGridViewTextBoxColumn, Me.DebeDataGridViewTextBoxColumn, Me.HaberDataGridViewTextBoxColumn})
         Me.dg1.DataSource = Me.LibromayorBindingSource
-        Me.dg1.Location = New System.Drawing.Point(12, 41)
+        Me.dg1.Location = New System.Drawing.Point(161, 97)
         Me.dg1.Name = "dg1"
-        Me.dg1.Size = New System.Drawing.Size(500, 382)
+        Me.dg1.Size = New System.Drawing.Size(587, 348)
         Me.dg1.TabIndex = 0
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ImageKey = "(ninguno)"
+        Me.Label2.Location = New System.Drawing.Point(354, 39)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(147, 22)
+        Me.Label2.TabIndex = 57
+        Me.Label2.Text = "LIBRO MAYOR"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Label1.Location = New System.Drawing.Point(106, 460)
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(36, 162)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(73, 20)
+        Me.Label1.Size = New System.Drawing.Size(80, 22)
         Me.Label1.TabIndex = 55
         Me.Label1.Text = "Cuadrar"
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.BackgroundImage = Global.proyecto_contbilidad.My.Resources.Resources.arrow_left_15601
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button4.ForeColor = System.Drawing.Color.White
+        Me.Button4.Location = New System.Drawing.Point(31, 12)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(66, 27)
+        Me.Button4.TabIndex = 58
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'frm_libro_mayor
         '
@@ -209,9 +223,10 @@ Partial Class frm_libro_mayor
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(524, 564)
+        Me.ClientSize = New System.Drawing.Size(772, 564)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.Button1)
@@ -241,16 +256,17 @@ Partial Class frm_libro_mayor
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dg2 As System.Windows.Forms.DataGridView
-    Friend WithEvents HaberDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DebeDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DetalleDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dg1 As System.Windows.Forms.DataGridView
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents dg2 As DataGridView
+    Friend WithEvents HaberDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents DebeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents DetalleDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents dg1 As DataGridView
+    Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button4 As Button
     'Friend WithEvents IdasientoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     'Friend WithEvents FechaDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     'Friend WithEvents FolioDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn

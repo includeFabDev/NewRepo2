@@ -205,4 +205,16 @@
         Form1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub ck_ivacf_CheckedChanged(sender As Object, e As EventArgs) Handles ck_ivacf.CheckedChanged
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
+    End Sub
 End Class

@@ -35,8 +35,12 @@
         Proceso.Start()
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Form1.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub dg2_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dg2.CellContentClick
+
     End Sub
 End Class

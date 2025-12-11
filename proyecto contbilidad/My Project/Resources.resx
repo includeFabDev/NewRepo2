@@ -118,68 +118,71 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1600" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3floppy-guardar-el-desmantelamiento-icono-4124-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3floppy-guardar-el-desmantelamiento-icono-4124-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="la-lucha-contra-la-caja-registradora-icono-4028-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\la-lucha-contra-la-caja-registradora-icono-4028-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton-de-cancelacion-de-icono-7349-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton-de-cancelacion-de-icono-7349-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="zotqbfue4eyhyyirwozy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zotqbfue4eyhyyirwozy1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="principal.jpgED" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\principal.jpgED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mis-cuentas-claras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mis-cuentas-claras1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="13784" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\13784.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Windows 7 ultimate collection of wallpapers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows 7 ultimate collection of wallpapers.241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2015_fiat_abarth_595_trofeo_edition_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2015_fiat_abarth_595_trofeo_edition_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="beos-carpeta-consultas-icono-7547-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beos-carpeta-consultas-icono-7547-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="687" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="porsche-carrera-4-type-991-19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porsche-carrera-4-type-991-19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_keeping-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_keeping-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4162521_orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4162521_orig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="folder1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PORSCHE911TurboS-997--4328_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PORSCHE911TurboS-997--4328_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iStock_000077662959_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iStock_000077662959_Small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ac1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ac1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inicio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="principal.jpgED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\principal.jpgED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2016-Porsche-911-Gallery4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2016-Porsche-911-Gallery4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3floppy-guardar-el-desmantelamiento-icono-4124-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3floppy-guardar-el-desmantelamiento-icono-4124-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculadora-de-matematicas-icono-5680-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculadora-de-matematicas-icono-5680-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zotqbfue4eyhyyirwozy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zotqbfue4eyhyyirwozy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la-lucha-contra-la-caja-registradora-icono-4028-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\la-lucha-contra-la-caja-registradora-icono-4028-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zotqbfue4eyhyyirwozy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zotqbfue4eyhyyirwozy2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cv" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="beos-carpeta-consultas-icono-7547-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beos-carpeta-consultas-icono-7547-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1Logo-Moxos-Wheels1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Logo-Moxos-Wheels1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boton-de-anadir-mas-icono-6258-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton-de-anadir-mas-icono-6258-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="color-blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\color-blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bmw-autos-usados-venta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bmw-autos-usados-venta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +196,8 @@
   <data name="calcuworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calcuworld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="folder3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TheMasterPro98 (101)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheMasterPro98 (101).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,44 +205,38 @@
   <data name="MARCAS EN TEKAUTO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MARCAS EN TEKAUTO.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="beos-carpeta-consultas-icono-7547-64-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beos-carpeta-consultas-icono-7547-64-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="folder2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PORSCHE911TurboS-997--4328_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PORSCHE911TurboS-997--4328_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete-button_icon-icons.com_71693" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-button_icon-icons.com_71693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imcruz port" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imcruz port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Izquierda-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Izquierda-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TheMasterPro98 (101)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TheMasterPro98 (101).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="folder1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="color-blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color-blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mimcruz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mimcruz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1Logo-Moxos-Wheels1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1Logo-Moxos-Wheels1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="verificacion-verde-ok-si-icono-8667-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verificacion-verde-ok-si-icono-8667-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="at" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\at.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow_left_15601" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_left_15601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="verificacion-verde-ok-si-icono-8667-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\verificacion-verde-ok-si-icono-8667-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="folder-library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mis-cuentas-claras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mis-cuentas-claras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="folder-library" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder-library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1YR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1YR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,50 +244,56 @@
   <data name="ad - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ad - copia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete-button_icon-icons.com_71693" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete-button_icon-icons.com_71693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="zotqbfue4eyhyyirwozy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zotqbfue4eyhyyirwozy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ce" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="consultoria-contable-fiscal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\consultoria-contable-fiscal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iStock_000077662959_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock_000077662959_Small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Izquierda-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Izquierda-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Windows 7 ultimate collection of wallpapers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Windows 7 ultimate collection of wallpapers.241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hoja-de-calculo-excel-invoice-icono-5449-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hoja-de-calculo-excel-invoice-icono-5449-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="book_keeping-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book_keeping-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1Logo-Moxos-Wheels" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1Logo-Moxos-Wheels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vidrios-en-los-libros-29014676 - copia (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vidrios-en-los-libros-29014676 - copia (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="impor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\impor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultoria-contable-fiscal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultoria-contable-fiscal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows 7 ultimate collection of wallpapers.24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows 7 ultimate collection of wallpapers.24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok-dialogo-icono-8741-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok-dialogo-icono-8741-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hoja-de-calculo-excel-invoice-icono-5449-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hoja-de-calculo-excel-invoice-icono-5449-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton-de-cancelacion-de-icono-7349-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton-de-cancelacion-de-icono-7349-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inicio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="co" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\co.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="beos-carpeta-consultas-icono-7547-64-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beos-carpeta-consultas-icono-7547-64-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2016-Porsche-911-Gallery41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-Porsche-911-Gallery4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zotqbfue4eyhyyirwozy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zotqbfue4eyhyyirwozy1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,44 +301,44 @@
   <data name="imcre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imcre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="porsche-carrera-4-type-991-19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\porsche-carrera-4-type-991-19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mis-cuentas-claras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mis-cuentas-claras1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ac1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ac1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuadros-malla-luz-rojo-negro-Fondos-de-Pantalla-HD-professor-falken.com_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="marcas-de-autos-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marcas-de-autos-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrow_left_15601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_left_15601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="687" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imcruz port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imcruz port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="impor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\impor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calculadora-de-matematicas-icono-5680-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calculadora-de-matematicas-icono-5680-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ok-dialogo-icono-8741-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ok-dialogo-icono-8741-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2016-Porsche-911-Gallery41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2016-Porsche-911-Gallery4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="impor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\impor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2016-Porsche-911-Gallery4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-Porsche-911-Gallery4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delete-button_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete-button_icon-icons.com_716931.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="impor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\impor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="at" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\at.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13784" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13784.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1600 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1600 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Windows 7 ultimate collection of wallpapers.24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Windows 7 ultimate collection of wallpapers.24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="marcas-de-autos-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marcas-de-autos-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1Logo-Moxos-Wheels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Logo-Moxos-Wheels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -343,7 +346,7 @@
   <data name="eduquese-en-seguridad-digital" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eduquese-en-seguridad-digital.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zotqbfue4eyhyyirwozy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zotqbfue4eyhyyirwozy2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="f22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
