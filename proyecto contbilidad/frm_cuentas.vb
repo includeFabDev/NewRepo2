@@ -36,4 +36,8 @@
     Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
 
     End Sub
+
+    Private Sub dg_cuentas_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dg_cuentas.CellContentClick
+
+    End Sub
 End Class
