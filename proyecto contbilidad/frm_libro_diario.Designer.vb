@@ -93,7 +93,7 @@ Partial Class frm_libro_diario
         Me.GroupBox2.Controls.Add(Me.txt_glosa)
         Me.GroupBox2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox2.Location = New System.Drawing.Point(22, 339)
+        Me.GroupBox2.Location = New System.Drawing.Point(674, 320)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(325, 99)
         Me.GroupBox2.TabIndex = 45
@@ -143,7 +143,7 @@ Partial Class frm_libro_diario
         Me.GroupBox1.Controls.Add(Me.rb_haber)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox1.Location = New System.Drawing.Point(22, 52)
+        Me.GroupBox1.Location = New System.Drawing.Point(674, 33)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(322, 259)
         Me.GroupBox1.TabIndex = 44
@@ -436,7 +436,7 @@ Partial Class frm_libro_diario
         Me.GroupBox3.Controls.Add(Me.TextBox2)
         Me.GroupBox3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox3.Location = New System.Drawing.Point(373, 52)
+        Me.GroupBox3.Location = New System.Drawing.Point(22, 33)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(642, 476)
         Me.GroupBox3.TabIndex = 46
@@ -486,7 +486,7 @@ Partial Class frm_libro_diario
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Snap ITC", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(18, 524)
+        Me.Label4.Location = New System.Drawing.Point(18, 505)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(0, 19)
         Me.Label4.TabIndex = 48
@@ -532,7 +532,7 @@ Partial Class frm_libro_diario
         Me.GroupBox6.Controls.Add(Me.GroupBox5)
         Me.GroupBox6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox6.ForeColor = System.Drawing.Color.White
-        Me.GroupBox6.Location = New System.Drawing.Point(22, 455)
+        Me.GroupBox6.Location = New System.Drawing.Point(674, 436)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(321, 129)
         Me.GroupBox6.TabIndex = 52

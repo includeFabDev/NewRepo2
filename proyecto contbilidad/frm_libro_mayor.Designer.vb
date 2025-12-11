@@ -33,7 +33,6 @@ Partial Class frm_libro_mayor
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -42,6 +41,7 @@ Partial Class frm_libro_mayor
         Me.DebeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DetalleDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dg1 = New System.Windows.Forms.DataGridView()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.LibromayorBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSetLibroMayor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox5.SuspendLayout()
@@ -127,23 +127,11 @@ Partial Class frm_libro_mayor
         Me.Button5.BackColor = System.Drawing.Color.Transparent
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button5.Location = New System.Drawing.Point(12, 12)
+        Me.Button5.Location = New System.Drawing.Point(12, 0)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(65, 35)
         Me.Button5.TabIndex = 54
         Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Label1.Location = New System.Drawing.Point(106, 460)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(73, 20)
-        Me.Label1.TabIndex = 55
-        Me.Label1.Text = "Cuadrar"
         '
         'Column3
         '
@@ -166,7 +154,7 @@ Partial Class frm_libro_mayor
         Me.dg2.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.dg2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dg2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.dg2.Location = New System.Drawing.Point(12, 74)
+        Me.dg2.Location = New System.Drawing.Point(12, 41)
         Me.dg2.Name = "dg2"
         Me.dg2.Size = New System.Drawing.Size(500, 416)
         Me.dg2.TabIndex = 1
@@ -197,10 +185,22 @@ Partial Class frm_libro_mayor
         Me.dg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dg1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DetalleDataGridViewTextBoxColumn, Me.DebeDataGridViewTextBoxColumn, Me.HaberDataGridViewTextBoxColumn})
         Me.dg1.DataSource = Me.LibromayorBindingSource
-        Me.dg1.Location = New System.Drawing.Point(12, 74)
+        Me.dg1.Location = New System.Drawing.Point(12, 41)
         Me.dg1.Name = "dg1"
         Me.dg1.Size = New System.Drawing.Size(500, 382)
         Me.dg1.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Label1.Location = New System.Drawing.Point(106, 460)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(73, 20)
+        Me.Label1.TabIndex = 55
+        Me.Label1.Text = "Cuadrar"
         '
         'frm_libro_mayor
         '
@@ -242,15 +242,15 @@ Partial Class frm_libro_mayor
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dg2 As System.Windows.Forms.DataGridView
+    Friend WithEvents HaberDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DebeDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DetalleDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dg1 As System.Windows.Forms.DataGridView
     Friend WithEvents Label1 As Label
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents dg2 As DataGridView
-    Friend WithEvents HaberDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents DebeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents DetalleDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents dg1 As DataGridView
     'Friend WithEvents IdasientoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     'Friend WithEvents FechaDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     'Friend WithEvents FolioDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn

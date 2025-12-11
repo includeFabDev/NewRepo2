@@ -113,7 +113,7 @@ Partial Class frm_login
         '
         'IconButton7
         '
-        Me.IconButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(190, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.IconButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(98, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.IconButton7.FlatAppearance.BorderSize = 0
         Me.IconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
