@@ -1,6 +1,6 @@
 ﻿Public Class frm_login
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
-        If UsernameTextBox.Text = "CONTA" And PasswordTextBox.Text = "1234" Then
+        If UsernameTextBox.Text = "BERNABE" And PasswordTextBox.Text = "admin" Then
             Form1.Show()
 
         Else

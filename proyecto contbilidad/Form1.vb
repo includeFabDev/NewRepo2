@@ -284,5 +284,15 @@ Public Class Form1
 
     End Sub
 
+    Private Sub IconButton5_Click(sender As Object, e As EventArgs) Handles IconButton5.Click
+        Dim youtubeUrl As String = "https://www.youtube.com"
 
+        ' Usar la clase Process para abrir el enlace en el navegador predeterminado
+        Try
+            Process.Start(youtubeUrl)
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el enlace: " & ex.Message)
+
+        End Try
+    End Sub
 End Class
